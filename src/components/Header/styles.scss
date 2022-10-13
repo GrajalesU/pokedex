@@ -1,0 +1,21 @@
+@use "../../sass/variables";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid variables.$black;
+  padding: 10px 0;
+  background-color: variables.$dark-blue;
+
+  &Logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    &Name {
+      font-weight: bold;
+      color: variables.$white;
+    }
+  }
+}

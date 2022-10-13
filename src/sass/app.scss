@@ -1,0 +1,17 @@
+@use "../sass/variables";
+
+.container {
+  background-color: #fff;
+  border: 1px solid variables.$black;
+  border-radius: 15px;
+  overflow: hidden;
+  min-width: 300px;
+  margin: 25px 0;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

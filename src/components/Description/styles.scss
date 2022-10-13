@@ -1,0 +1,66 @@
+@use "../../sass/variables";
+
+.pokemon {
+  background: variables.$light-blue;
+  border-bottom: 1px solid variables.$black;
+  height: 400px;
+  position: relative;
+
+  &Name {
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    background: variables.$orange;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: variables.$white;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 15%;
+    top: 3%;
+  }
+
+  &Image {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 160px;
+    position: absolute;
+    left: calc(25%);
+    top: 8%;
+    z-index: 2;
+  }
+
+  &Description {
+    margin: 0 auto;
+    background-color: variables.$yellow;
+    width: 80%;
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    color: variables.$black;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+
+    td {
+      width: 50%;
+      padding: 7px 0;
+    }
+
+    td:first-child {
+      box-sizing: content-box;
+      padding-left: 20px;
+    }
+
+    td:nth-child(2) {
+      box-sizing: content-box;
+      padding-left: 20px;
+    }
+  }
+}

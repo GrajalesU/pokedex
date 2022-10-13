@@ -1,7 +1,21 @@
 {
   "cSpell.words": [
+    "charizard",
     "Pokeapi",
+    "pokeball",
     "pokedex",
     "POKÉDEX"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "css.validate": false,
+  "scss.validate" :false,
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss"
   ]
 }
