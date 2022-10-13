@@ -7,6 +7,14 @@
     font-weight: bold;
     text-align: center;
     padding-top: 10px;
+
+    @media (min-width: 768px) {
+      width: 20%;
+      align-self: center;
+      margin-right: 20px;
+      text-align: right;
+      box-sizing: border-box;
+    }
   }
 
   &List {
@@ -24,9 +32,32 @@
       padding: 3px;
       border-radius: 15px;
 
+      &:hover {
+        background-color: variables.$dark-blue;
+        cursor: pointer;
+      }
+
+      @media (min-width: 768px) {
+        width: 60px;
+      }
+
       > img {
         width: 100%;
       }
     }
+
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 50px;
+      width: 70%;
+      gap: 50px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
   }
 }

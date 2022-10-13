@@ -3,12 +3,14 @@ import './styles.scss';
 const Description = () => {
   return (
     <main className="pokemon">
-      <h1 className="pokemonName">🔥 CHARIZARD</h1>
-      <img
-        src="src/assets/charizard.png"
-        alt="charizard fan art"
-        className="pokemonImage"
-      />
+      <div>
+        <h1 className="pokemonName">🔥 CHARIZARD</h1>
+        <img
+          src="src/assets/charizard.png"
+          alt="charizard fan art"
+          className="pokemonImage"
+        />
+      </div>
       <table className="pokemonDescription">
         <tr className="pokemonDescriptionElement">
           <td>NO.</td>
