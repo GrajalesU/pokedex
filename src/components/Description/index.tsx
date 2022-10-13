@@ -1,40 +1,53 @@
 import './styles.scss';
 
-const Description = () => {
+import Pokemon from '../../interfaces/pokemon';
+interface Props {
+  pokemon: Pokemon;
+}
+
+const Description = ({ pokemon }: Props) => {
   return (
     <main className="pokemon">
       <div>
-        <h1 className="pokemonName">🔥 CHARIZARD</h1>
-        <img
-          src="src/assets/charizard.png"
-          alt="charizard fan art"
-          className="pokemonImage"
-        />
+        <h1 className="pokemonName">{pokemon.name}</h1>
+        <img src={pokemon.img} alt="charizard fan art" className="pokemonImage" />
       </div>
       <table className="pokemonDescription">
         <tr className="pokemonDescriptionElement">
           <td>NO.</td>
-          <td>006</td>
+          <td>{pokemon.id}</td>
         </tr>
         <tr className="pokemonDescriptionElement">
           <td>LEVEL</td>
-          <td>100</td>
+          <td>{pokemon.level}</td>
         </tr>
         <tr className="pokemonDescriptionElement">
           <td>TYPE</td>
-          <td>FIRE</td>
+          <td>{pokemon.type}</td>
         </tr>
         <tr className="pokemonDescriptionElement">
           <td>ABILITY</td>
-          <td>FLAMES</td>
+          <td>{pokemon.ability}</td>
         </tr>
         <tr className="pokemonDescriptionElement">
           <td>HEIGHT</td>
-          <td>1,7 m</td>
+          <td
+            style={{
+              textTransform: 'lowercase',
+            }}
+          >
+            {pokemon.height} m
+          </td>
         </tr>
         <tr className="pokemonDescriptionElement">
           <td>WEIGHT</td>
-          <td>90,5 Kg</td>
+          <td
+            style={{
+              textTransform: 'lowercase',
+            }}
+          >
+            {pokemon.weight} Kg
+          </td>
         </tr>
       </table>
     </main>

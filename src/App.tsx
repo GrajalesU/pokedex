@@ -1,19 +1,7 @@
-import './sass/app.scss';
-
-import Description from './components/Description';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Pokedex from './pages/Pokedex';
 
 function App() {
-  return (
-    <div className="app">
-      <div className="container">
-        <Header />
-        <Description />
-        <Footer />
-      </div>
-    </div>
-  );
+  return <Pokedex />;
 }
 
 export default App;

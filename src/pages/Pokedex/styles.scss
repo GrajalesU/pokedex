@@ -1,4 +1,4 @@
-@use "../sass/variables";
+@use "../../sass/variables";
 
 .container {
   background-color: #fff;
@@ -11,7 +11,7 @@
   margin: 25px 0;
 }
 
-.app {
+.pokedex {
   min-height: 100vh;
   display: flex;
   align-items: center;
