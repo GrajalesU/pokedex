@@ -4,7 +4,7 @@ Using  [Pokeapi](https://pokeapi.co/),  a responsive web interface is built that
 
 ![Mock](/resources/base.png)
 
-[Go to project] https://pokedex-lac-kappa.vercel.app/
+[Go to Project clicking here](https://pokedex-lac-kappa.vercel.app/)
 
 ### Mobile View
 <p align="center">
