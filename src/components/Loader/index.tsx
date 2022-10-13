@@ -1,9 +1,11 @@
 import './styles.scss';
 
+import pokeball from '../../assets/pokeball.svg';
+
 const Loader = () => {
   return (
     <div className="loader">
-      <img src="src/assets/pokeball.svg" alt="pokeball" className="headerLogoImg" />
+      <img src={pokeball} alt="pokeball" className="headerLogoImg" />
     </div>
   );
 };
