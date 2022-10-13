@@ -3,8 +3,19 @@
 Using  [Pokeapi](https://pokeapi.co/),  a responsive web interface is built that is based on the Pokedex.
 
 ![Mock](/resources/base.png)
-![DesktopView](/resources/desktopView.png)
-![MobileView](/resources/MobileView.png)
+
+[Go to project] https://pokedex-lac-kappa.vercel.app/
+
+### Mobile View
+<p align="center">
+<img width="250" height="500" src="./resources/MobileView.png">
+</p>  
+
+### Desktop View
+<p align="center">
+<img src="./resources/desktopView.png">
+</p>  
+
 
 ## Installation
 
