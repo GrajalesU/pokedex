@@ -2,7 +2,9 @@
 
 Using  [Pokeapi](https://pokeapi.co/),  a responsive web interface is built that is based on the Pokedex.
 
-![Vite + React + Typescript + Eslint + Prettier](/resources/base.png)
+![Mock](/resources/base.png)
+![DesktopView](/resources/desktopView.png)
+![MobileView](/resources/MobileView.png)
 
 ## Installation
 
